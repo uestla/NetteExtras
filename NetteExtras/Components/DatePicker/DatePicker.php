@@ -68,9 +68,9 @@ class DatePicker extends Forms\Controls\BaseControl
 	/**
 	 * Sets class name for input element.
 	 *
-	 * @author Jan Tvrdík
-	 * @param  string
-	 * @return self
+	 * @author   Jan Tvrdík
+	 * @param    string
+	 * @return   DatePicker
 	 */
 	public function setClassName($className)
 	{
@@ -102,9 +102,9 @@ class DatePicker extends Forms\Controls\BaseControl
 	/**
 	 * Sets DatePicker value.
 	 *
-	 * @author Jan Tvrdík
-	 * @param  DateTime|int|string
-	 * @return self
+	 * @author   Jan Tvrdík
+	 * @param    DateTime|int|string
+	 * @return   DatePicker
 	 */
 	public function setValue($value)
 	{
